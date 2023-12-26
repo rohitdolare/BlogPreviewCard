@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Figtree', sans-serif;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div style="
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        background-color: hsl(47, 88%, 63%);
+      ">
+    <div
+      style="background-color: white; width: 274px; overflow: hidden;border-radius: 20px;padding: 25px;border: 2px solid black ;box-shadow: 10px 10px;">
+      <div style="display: flex; border-radius: 10px; overflow: hidden;">
+        <img style="width: 100%;" src="./assets/images/illustration-article.svg" alt="illustration-article" />
+      </div>
+      <div style="margin-top: 20px;">
+        <button class="shiny-label"
+          style="padding: 5px 10px; border-radius: 5px;background-color: hsl(47, 88%, 63%); border: none;font-weight: 800;">Learning</button>
+
+        <p style="margin: 15px 0;font-size: 12px;;font-weight: 800;color:hsl(0, 0%, 50%)">Published 21 Dec 2023</p>
+
+        <h1 style="margin:20px 0;font-size: 22px;">HTML & CSS fondations</h1>
+
+        <p style="padding: 0 0 20px 0;font-size: 13px;color:hsl(0, 0%, 50%)">These languages are the backbone of every
+          website, defining structure, content, and presentation.</p>
+
+        <div style="display: flex;height: 35px;">
+          <div style="display: inline-block; margin-right: 10px;"><img style="height: 100%;"
+              src="./assets/images/image-avatar.webp" alt="">
+          </div>
+
+          <h2 style="font-size: 15px;margin: auto 0;">Greg Hooper</h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
